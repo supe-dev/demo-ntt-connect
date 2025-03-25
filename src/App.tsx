@@ -26,19 +26,19 @@ const wormholeConfig: WormholeConnectConfig = {
         BBY_NTT: [
           {
             chain: 'Sepolia',
-            manager: '0xbD1Dd73b5240A1Ad975ed696d94774a579e808B0',
-            token: '0xE0D050DE52dC7B8855641E4F77aBF68644D38cf9',
+            manager: '0x2Dc2D212843529F14c907A0b81a54f58C1f76018',
+            token: '0xE28732F61D31040cE986D7903CADF76e9e2feAff',
             transceiver: [
               {
-                address: '0xcc7Bdbf2Eda004FBd5189d1316896a573C127F5F',
+                address: '0x12C3187d4D1A82272fBa748D38190BdB17cB190a',
                 type: 'wormhole',
               },
             ],
           },
           {
             chain: 'BaseSepolia',
-            manager: '0xbD1Dd73b5240A1Ad975ed696d94774a579e808B0',
-            token: '0xE0D050DE52dC7B8855641E4F77aBF68644D38cf9',
+            manager: '0xaC534d659Baa2813CF3Ed2Ec91D23d0013371315',
+            token: '0xd8721E63D8455de281D49F7121893d5F82D6403A',
             transceiver: [
               {
                 address: '0xcc7Bdbf2Eda004FBd5189d1316896a573C127F5F',
@@ -58,7 +58,7 @@ const wormholeConfig: WormholeConnectConfig = {
       displayName: 'BBY',
       tokenId: {
         chain: 'Sepolia',
-        address: '0xE0D050DE52dC7B8855641E4F77aBF68644D38cf9'
+        address: '0xE28732F61D31040cE986D7903CADF76e9e2feAff'
       },
       coinGeckoId: 'wormhole',
       icon: 'https://wormhole.com/token.png',
@@ -71,7 +71,7 @@ const wormholeConfig: WormholeConnectConfig = {
       displayName: 'BBY',
       tokenId: {
         chain: 'BaseSepolia',
-        address: '0xE0D050DE52dC7B8855641E4F77aBF68644D38cf9'
+        address: '0xd8721E63D8455de281D49F7121893d5F82D6403A'
       },
       coinGeckoId: 'wormhole',
       icon: 'https://wormhole.com/token.png',
